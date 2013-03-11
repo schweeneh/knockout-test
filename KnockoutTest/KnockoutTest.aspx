@@ -29,7 +29,7 @@
     <p>
     This is the json:
     <pre data-bind="text: ko.toJSON($root)"></pre>
-    <button data-bind="click: function () {alert(ko.toJSON($root)); }">Click</button>
+    <button data-bind="click: sendToServer">Click</button>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     
